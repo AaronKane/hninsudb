@@ -58,7 +58,7 @@ window.onload = function () {
 
 
   <!--ninja-slider start-->
-  <div id="sliderpad">
+  
     <div id="ninja-slider">
       <div class="slider-inner mdl-shadow--2dp">
         <ul>
@@ -93,7 +93,7 @@ window.onload = function () {
         </div>
       </div>
     </div>
-  </div>
+  
   <!--end-->
   <a href="firework.php" id="Skip" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Skip</a>
   <div class="mal-grid" id="middle">
