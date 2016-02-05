@@ -1,0 +1,544 @@
+body {
+  margin: 0;
+  background: #8D0121;
+  opacity: 8;
+}
+
+#headper {
+  background: #8D0121;
+  margin-bottom: 50px;
+}
+
+.sign {
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h1.deepshadow {
+  font-family: font-family: 'Pacifico', cursive;
+  color: #00BBD6;
+  background-color: #333;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #ffffff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.hit-the-floor {
+  color: #FFFFFF;
+  font-size: 9em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 2px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.hit-the-floor {
+  margin-top: 200px;
+  padding top: 200px;
+  text-align: center;
+}
+
+#header-for {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+#imglove {
+  width: 45px;
+  height: 45px;
+}
+
+#naming {
+  widows: 80%;
+  margin: 10%;
+  height: 400px;
+  display: block;
+  background: #00BBD6;
+  padding-top: 100px;
+}
+
+#naminger {
+  widows: 80%;
+  margin: 10%;
+  height: 400px;
+  display: block;
+  background: #00BBD6/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.08+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#14000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+  ;
+  padding-top: 100px;
+}
+
+
+/*This is heart creating*/
+
+.heart-shape {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0084+0,ff0084+100;Pink+Flat */
+  background: rgb(255, 0, 132);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ff0084', GradientType=0);
+  /* IE6-9 */
+}
+
+.heart-shape:before,
+.heart-shape:after {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0084+0,ff0084+100;Pink+Flat */
+  background: rgb(255, 0, 132);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ff0084', GradientType=0);
+  /* IE6-9 */
+}
+
+.heart-shape:before {
+  bottom: 0px;
+  left: -100px;
+}
+
+.heart-shape:after {
+  top: -100px;
+  right: 0px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-slow
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+
+.shake-slow {
+  display: inline-block;
+  transform-origin: center center;
+}
+
+.shake-freeze,
+.shake-constant.shake-constant--hover:hover,
+.shake-trigger:hover .shake-constant.shake-constant--hover {
+  animation-play-state: paused;
+}
+
+.shake-freeze:hover,
+.shake-trigger:hover .shake-freeze,
+.shake-slow:hover,
+.shake-trigger:hover .shake-slow {
+  animation-play-state: running;
+}
+
+@keyframes shake-slow {
+  2% {
+    transform: translate(0px, 4px) rotate(-0.5deg);
+  }
+  4% {
+    transform: translate(-3px, 9px) rotate(-0.5deg);
+  }
+  6% {
+    transform: translate(4px, 10px) rotate(-0.5deg);
+  }
+  8% {
+    transform: translate(0px, -2px) rotate(0.5deg);
+  }
+  10% {
+    transform: translate(9px, -9px) rotate(1.5deg);
+  }
+  12% {
+    transform: translate(-9px, 9px) rotate(1.5deg);
+  }
+  14% {
+    transform: translate(10px, -1px) rotate(-0.5deg);
+  }
+  16% {
+    transform: translate(7px, -1px) rotate(0.5deg);
+  }
+  18% {
+    transform: translate(-8px, 8px) rotate(1.5deg);
+  }
+  20% {
+    transform: translate(1px, -9px) rotate(0.5deg);
+  }
+  22% {
+    transform: translate(7px, -6px) rotate(0.5deg);
+  }
+  24% {
+    transform: translate(-8px, -4px) rotate(-1.5deg);
+  }
+  26% {
+    transform: translate(-9px, 5px) rotate(-1.5deg);
+  }
+  28% {
+    transform: translate(7px, 3px) rotate(-1.5deg);
+  }
+  30% {
+    transform: translate(9px, 3px) rotate(2.5deg);
+  }
+  32% {
+    transform: translate(2px, -6px) rotate(-1.5deg);
+  }
+  34% {
+    transform: translate(10px, -7px) rotate(2.5deg);
+  }
+  36% {
+    transform: translate(-2px, 10px) rotate(-2.5deg);
+  }
+  38% {
+    transform: translate(-6px, -8px) rotate(-1.5deg);
+  }
+  40% {
+    transform: translate(1px, 0px) rotate(-2.5deg);
+  }
+  42% {
+    transform: translate(10px, 8px) rotate(3.5deg);
+  }
+  44% {
+    transform: translate(4px, 2px) rotate(2.5deg);
+  }
+  46% {
+    transform: translate(10px, -2px) rotate(-1.5deg);
+  }
+  48% {
+    transform: translate(10px, 0px) rotate(-2.5deg);
+  }
+  50% {
+    transform: translate(-2px, 5px) rotate(-0.5deg);
+  }
+  52% {
+    transform: translate(4px, 1px) rotate(3.5deg);
+  }
+  54% {
+    transform: translate(-8px, -5px) rotate(2.5deg);
+  }
+  56% {
+    transform: translate(8px, -8px) rotate(2.5deg);
+  }
+  58% {
+    transform: translate(-3px, -6px) rotate(1.5deg);
+  }
+  60% {
+    transform: translate(-3px, -5px) rotate(0.5deg);
+  }
+  62% {
+    transform: translate(-1px, 0px) rotate(-0.5deg);
+  }
+  64% {
+    transform: translate(2px, 10px) rotate(3.5deg);
+  }
+  66% {
+    transform: translate(-4px, -1px) rotate(-0.5deg);
+  }
+  68% {
+    transform: translate(8px, -5px) rotate(1.5deg);
+  }
+  70% {
+    transform: translate(-3px, 2px) rotate(-1.5deg);
+  }
+  72% {
+    transform: translate(9px, -3px) rotate(-0.5deg);
+  }
+  74% {
+    transform: translate(-2px, 6px) rotate(1.5deg);
+  }
+  76% {
+    transform: translate(-7px, -8px) rotate(-1.5deg);
+  }
+  78% {
+    transform: translate(7px, -4px) rotate(0.5deg);
+  }
+  80% {
+    transform: translate(-4px, -5px) rotate(-1.5deg);
+  }
+  82% {
+    transform: translate(8px, 6px) rotate(3.5deg);
+  }
+  84% {
+    transform: translate(0px, -7px) rotate(-1.5deg);
+  }
+  86% {
+    transform: translate(0px, 1px) rotate(3.5deg);
+  }
+  88% {
+    transform: translate(-6px, -3px) rotate(2.5deg);
+  }
+  90% {
+    transform: translate(1px, 3px) rotate(-0.5deg);
+  }
+  92% {
+    transform: translate(-9px, -4px) rotate(-2.5deg);
+  }
+  94% {
+    transform: translate(-7px, -6px) rotate(2.5deg);
+  }
+  96% {
+    transform: translate(5px, -3px) rotate(-1.5deg);
+  }
+  98% {
+    transform: translate(8px, 4px) rotate(0.5deg);
+  }
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+.shake-slow:hover,
+.shake-trigger:hover .shake-slow,
+.shake-slow.shake-freeze,
+.shake-slow.shake-constant {
+  animation: shake-slow 20s ease-in-out infinite;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *\  
+     Dodecahedron by wontem (@wontem).
+\* * * * * * * * * * * * * * * * * * * * */
+
+.view {
+  margin-left: 30%;
+  position: absolute;
+  -webkit-perspective: 400;
+  perspective: 400;
+}
+
+.plane {
+  width: 120px;
+  height: 120px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.plane.main {
+  position: absolute;
+  -webkit-transform: rotateX(60deg) rotateZ(-30deg);
+  transform: rotateX(60deg) rotateZ(-30deg);
+  -webkit-animation: rotate 20s infinite linear;
+  animation: rotate 20s infinite linear;
+}
+
+.plane.main .circle {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px crimson, inset 0 0 60px crimson;
+}
+
+.plane.main .circle::before,
+.plane.main .circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  background: crimson;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px 2px crimson;
+}
+
+.plane.main .circle::before {
+  -webkit-transform: translateZ(-90px);
+  transform: translateZ(-90px);
+}
+
+.plane.main .circle::after {
+  -webkit-transform: translateZ(90px);
+  transform: translateZ(90px);
+}
+
+.plane.main .circle:nth-child(1) {
+  -webkit-transform: rotateZ(72deg) rotateX(63.435deg);
+  transform: rotateZ(72deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(2) {
+  -webkit-transform: rotateZ(144deg) rotateX(63.435deg);
+  transform: rotateZ(144deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(3) {
+  -webkit-transform: rotateZ(216deg) rotateX(63.435deg);
+  transform: rotateZ(216deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(4) {
+  -webkit-transform: rotateZ(288deg) rotateX(63.435deg);
+  transform: rotateZ(288deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(5) {
+  -webkit-transform: rotateZ(360deg) rotateX(63.435deg);
+  transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+#ball {
+  padding-left: 45%;
+  padding-top: 50px;
+  margin-top: 200px;
+  padding top: 200px;
+}
+
+#texter {
+  padding-left: 20%;
+  padding-top: 50px;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+
+.mysite {
+  width: 500px;
+  height: 300px;
+  padding-top: 250px;
+  margin-left: 20%;
+}
+
+#sliderpad {
+  padding-top: 45px;
+}
+
+#middle {
+  padding-left: 40%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *\  
+     Moklik
+\* * * * * * * * * * * * * * * * * * * * */
+
+.area {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 6em;
+  color: #FFFFFF;
+  letter-spacing: -7px;
+  font-weight: 500;
+  text-transform: uppercase;
+  animation: blur 5s ease-out infinite;
+  text-shadow: 0px 0px 5px #FFFFFF, 0px 0px 7px #FFFFFF;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 25px #FFFFFF, 0px 0px 50px #FFFFFF, 0px 0px 50px #FFFFFF, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+  }
+}
+
+#skip {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+#skip:hover {
+  background-color: rgba(135, 135, 135, 0.50);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 5.0s infinite ease-in-out;
+  animation: sk-scaleout 5.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0)
+  }
+  100% {
+    -webkit-transform: scale(5.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(5.0);
+    transform: scale(5.0);
+    opacity: 0;
+  }
+}
+
+#footer {
+  
+  margin-top: 200px;
+ padding-bottom: 100px;
+}
